@@ -10,7 +10,7 @@ function compute() {
 
         Result = Result + " at an interest rate of <span>" + Rate + "% </span>. <br />" 
         Result = Result + "You will receive an amount of <span>" + Interest + "</span>,<br />" 
-        Result = Result + "in the year <span>" + PayoutYear() + " year </span>"; 
+        Result = Result + "in the year <span>" + PayoutYear() + "</span>"; 
 
         
 
