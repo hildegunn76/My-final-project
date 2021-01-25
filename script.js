@@ -8,9 +8,9 @@ function compute() {
 
         var Result = "<br />If you deposit <span>" + Principal + "</span>,<br />" 
 
-        Result = Result + " at an interest rate of " + Rate + "%. <br />" 
-        Result = Result + " You will receive an amount of " + Interest + ",<br />" 
-        Result = Result + "in the year " + PayoutYear(); 
+        Result = Result + " at an interest rate of <span>" + Rate + "%</span>. <br />" 
+        Result = Result + " You will receive an amount of <span>" + Interest + "</span>,<br />" 
+        Result = Result + "in the year <span>" + PayoutYear() + "</span>"; 
 
         
 
