@@ -18,7 +18,7 @@ function compute() {
 			Result = Result + "You will receive an amount of <span>" + Interest + "</span>,<br />" 
 			Result = Result + "in the year <span>" + PayoutYear() + "</span>"; 
 
-        		document.getElementById('result').innerHTML = Result
+        		document.getElementById('result').innerHTML = Result;
 			
 		}
 		}
