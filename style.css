@@ -1,8 +1,8 @@
-body {background-color:black; font:arial; font-color:white}
+body {background-color:black; font:arial; font-color:white; display:flex; flex-direction:row, justify-content:center;}
 h1{color:grey; font:verdana}
 
 div
-.maindiv {background-color:white; font-color:black; width:300px; padding:20px; border-radius:25px; justify-content: center;}
+.maindiv {background-color:white; font-color:black; width:300px; padding:20px; border-radius:25px; text-align: left;}
 
 span {background-color: yellow}
 
