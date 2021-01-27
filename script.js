@@ -3,9 +3,9 @@ function compute() {
 		var Rate = document.getElementById('rate').value;
 	    var Years = document.getElementById('years').value;	
 	  	if (principal <= 0) {
-    		alert("Enter a positive number");
+    		alert "Enter a positive number";
 		document.getElementById("principal").focus();
-  		} else 
+  		} else {
         var Interest = (Principal * Years * Rate)/100;
 
         document.getElementById('result').innerHTML = PayoutYear(); 
@@ -19,7 +19,8 @@ function compute() {
         
 
         document.getElementById('result').innerHTML = Result
-
+			
+		}
 		}
          
 function PayoutYear()         { 
