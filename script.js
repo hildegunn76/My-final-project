@@ -12,11 +12,11 @@ function compute() {
 
         		document.getElementById('result').innerHTML = PayoutYear(); 
 
-        		var Result = "<br />If you deposit <span>" + Principal + "</span>,<br />" 
+        		var Result = "<br />If you deposit <strong>" + Principal + "</strong>,<br />" 
 
-			Result = Result + " at an interest rate of <span>" + Rate + "% </span>. <br />" 
-			Result = Result + "You will receive an amount of <span>" + Interest + "</span>,<br />" 
-			Result = Result + "in the year <span>" + PayoutYear() + "</span>"; 
+			Result = Result + " at an interest rate of <strong>" + Rate + "% </strong>. <br />" 
+			Result = Result + "You will receive an amount of <strong>" + Interest + "</strong>,<br />" 
+			Result = Result + "in the year <strong>" + PayoutYear() + "</strong>"; 
 
         		document.getElementById('result').innerHTML = Result;
 		}
